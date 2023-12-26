@@ -7,16 +7,23 @@
       <th scope="col">programme</th>
       <th scope="col">niveau de difficulté</th>
       <th scope="col">tags</th>
+      <th scope="col">Actions</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let client of clients">
-      <th scope="row">{{client.id}}</th>
-      <td>{{client.nom}}</td>
-      <td>{{client.email}}</td>
-      <td>{{client.tel?client.tel:''}}</td>
-      <td><button class="btn btn-primary" >Editer</button></td>
-      <td><button class="btn btn-danger" >Supprimer</button></td>
+    <tr *ngFor="let f of formations">
+      <td>{{f.titre}}</td>
+      <td>{{f.description}}</td>
+      <td>{{f.charge_horaire}}</td>
+      <td>{{f.programme}}</td>
+      <td>{{f.niveau_difficulte}}</td>
+      <td>
+        <span *ngFor="let tag of f.tags">{{ tag }} </span>
+      </td>
+      <td>
+        <button class="btn btn-primary">Editer</button>
+        <button class="btn btn-danger">Supprimer</button>
+      </td>
     </tr>
   </tbody>
 </table>
