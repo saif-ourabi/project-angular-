@@ -14,7 +14,7 @@ import { FormationListComponent } from './formation/formation-list/formation-lis
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormationListComponent
+    FormationListComponent,
   ],
   imports: [
     BrowserModule,
