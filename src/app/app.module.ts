@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormationListComponent } from './formation/formation-list/formation-list.component';
+import { AccueilComponent } from './Accueil/accueil/accueil.component';
 
 
 
@@ -14,7 +15,8 @@ import { FormationListComponent } from './formation/formation-list/formation-lis
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormationListComponent
+    FormationListComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
