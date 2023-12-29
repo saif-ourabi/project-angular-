@@ -1,29 +1,36 @@
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">titre</th>
-      <th scope="col">description</th>
-      <th scope="col">charge horaire</th>
-      <th scope="col">programme</th>
-      <th scope="col">niveau de difficulté</th>
-      <th scope="col">tags</th>
-      <th scope="col">Actions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let f of formations">
-      <td>{{f.titre}}</td>
-      <td>{{f.description}}</td>
-      <td>{{f.charge_horaire}}</td>
-      <td>{{f.programme}}</td>
-      <td>{{f.niveau_difficulte}}</td>
-      <td>
-        <span *ngFor="let tag of f.tags">{{ tag }} </span>
-      </td>
-      <td>
-        <button class="btn btn-primary">Editer</button>
-        <button class="btn btn-danger">Supprimer</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="container mt-3">
+  <div class="input-group">
+    <input class="form-control" type="search" placeholder="Search" [(ngModel)]="searchTerm" (input)="search()">
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">titre</th>
+        <th scope="col">description</th>
+        <th scope="col">charge horaire</th>
+        <th scope="col">programme</th>
+        <th scope="col">niveau de difficulté</th>
+        <th scope="col">tags</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let f of filteredFormations">
+        <td>{{f.id}}</td>
+        <td>{{f.titre}}</td>
+        <td>{{f.description}}</td>
+        <td>{{f.charge_horaire}}</td>
+        <td>{{f.programme}}</td>
+        <td>{{f.niveau_difficulte}}</td>
+        <td>
+          <span *ngFor="let tag of f.tags">{{ tag }} </span>
+        </td>
+        <td>
+          <a [routerLink]="['/Details',f.id]">Details</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

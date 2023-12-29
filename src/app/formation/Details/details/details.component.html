@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="container mt-5">
+    <h1>Formation Information</h1>
+    <div class="card" *ngIf="formation">
+        <div class="card-body">
+            <h5 class="card-title">{{ formation.titre }}</h5>
+            <p class="card-text">Description: {{ formation.description }}</p>
+            <p class="card-text">Charge Horaire: {{ formation.charge_horaire }}</p>
+            <p class="card-text">Programme: {{ formation.programme }}</p>
+            <p class="card-text">Niveau de Difficulté: {{ formation.niveau_difficulte }}</p>
+            <p class="card-text">Tags: {{ formation.tags.join(', ') }}</p>
+            <a href={{formation.pdf}}  class="btn btn-primary ">Download PDF</a>
+            <button class="btn btn-success" style="margin-left: 20px;">s’inscrire</button>
+        </div>
+    </div>
+</body>
+
+</html>

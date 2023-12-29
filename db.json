@@ -1,44 +1,78 @@
 {
   "formations": [
     {
+      "id": "1",
       "titre": "Formation 1",
       "description": "Description for Formation 1",
       "charge_horaire": "30 hours",
       "programme": "Program for Formation 1",
       "niveau_difficulte": "Intermediate",
-      "tags": ["tag1", "tag2", "tag3"]
+      "tags": ["tag1", "tag2", "tag3"],
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
     },
     {
+      "id": "2",
       "titre": "Formation 2",
       "description": "Description for Formation 2",
       "charge_horaire": "45 hours",
       "programme": "Program for Formation 2",
       "niveau_difficulte": "Advanced",
-      "tags": ["tag4", "tag5"]
+      "tags": ["tag4", "tag5"],
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
     },
     {
+      "id": "3",
       "titre": "Formation 3",
       "description": "Description for Formation 3",
       "charge_horaire": "40 hours",
       "programme": "Program for Formation 3",
       "niveau_difficulte": "Beginner",
-      "tags": ["tag6", "tag7", "tag8"]
+      "tags": ["tag6", "tag7", "tag8"],
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
     },
     {
+      "id": "4",
       "titre": "Formation 4",
       "description": "Description for Formation 4",
       "charge_horaire": "60 hours",
       "programme": "Program for Formation 4",
       "niveau_difficulte": "Intermediate",
-      "tags": ["tag9", "tag10"]
+      "tags": ["tag9", "tag10", "tag1"],
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
     },
     {
+      "id": "5",
       "titre": "Formation 5",
       "description": "Description for Formation 5",
       "charge_horaire": "35 hours",
       "programme": "Program for Formation 5",
       "niveau_difficulte": "Advanced",
-      "tags": ["tag11", "tag12", "tag13"]
+      "tags": ["tag11", "tag12", "tag13"],
+      "pdf":"https://www.africau.edu/images/default/sample.pdf"
+    },
+    {
+      "id": "6",
+      "titre": "Formation 5",
+      "description": "Description for Formation 5",
+      "charge_horaire": "35 hours",
+      "programme": "Program for Formation 5",
+      "niveau_difficulte": "Advanced",
+      "tags": ["tag11", "tag12", "tag13"],
+      "pdf":"https://www.africau.edu/images/default/sample.pdf"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "hashed_password",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "john_doe",
+      "password": "hashed_password",
+      "role": "admin"
     }
   ]
 }
