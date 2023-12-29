@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormationListComponent } from './formation/formation-list/formation-list.component';
 import { DetailsComponent } from './formation/Details/details/details.component';
+import { RegisterComponent } from './register/register/register.component';
 
 
 
@@ -16,7 +17,8 @@ import { DetailsComponent } from './formation/Details/details/details.component'
     AppComponent,
     HeaderComponent,
     FormationListComponent,
-    DetailsComponent
+    DetailsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
