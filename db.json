@@ -85,6 +85,83 @@
     }
   ],
   "users": [
-    
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "KxvNwyfVF6VqAUV",
+      "username": "saif ourabi",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "123564",
+      "confirmPassword": "11891891",
+      "username": "Seif",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "email": "ourabisaif0.51@gmail.com",
+      "password": "123456",
+      "username": "saif",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "ourabisaif0.51@gmail.com",
+      "password": "123456",
+      "username": "saif",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "123456",
+      "username": "saif",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "email": "ourabisaif0.51@gmail.com",
+      "password": "dadad15",
+      "username": "da",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "d484848484",
+      "username": "Seif",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "KxvNwyfVF6VqAUV",
+      "username": "Seif",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "KxvNwyfVF6VqAUV",
+      "username": "Seif",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "KxvNwyfVF6VqAUV",
+      "username": "Seif",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "email": "fafoufarouk27@gmail.com",
+      "password": "KxvNwyfVF6VqAUV",
+      "username": "Seif",
+      "role": "user",
+      "id": 11
+    }
   ]
 }
