@@ -9,6 +9,7 @@ import { FormationListComponent } from './formation/formation-list/formation-lis
 import { DetailsComponent } from './formation/Details/details/details.component';
 import { RegisterComponent } from './user/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './user/login/login.component';
 
 
 
@@ -16,12 +17,13 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [
+  declarations:[
     AppComponent,
     HeaderComponent,
     FormationListComponent,
     DetailsComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

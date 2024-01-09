@@ -4,5 +4,6 @@ export interface Iuser {
     email:string;
     role:string;
     password:string
+    formation:string[]
     
 }

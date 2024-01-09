@@ -18,7 +18,7 @@ export class FormationListComponent implements OnInit {
     this.crudFormationsService.getFormations().subscribe(
       (data) => {
         this.formations = data;
-        this.filteredFormations = [...this.formations]; // Initialize filteredFormations with all formations
+        this.filteredFormations = [...this.formations];
       },
       (error) => {
         console.error('Error fetching formations:', error);

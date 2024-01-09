@@ -4,6 +4,7 @@ import { FormationListComponent } from './formation/formation-list/formation-lis
 import { AccueilComponent } from './Accueil/accueil/accueil.component';
 import { DetailsComponent } from './formation/Details/details/details.component';
 import { RegisterComponent } from './user/register/register.component';
+import { LoginComponent } from './user/login/login.component';
 
 
 
@@ -12,7 +13,9 @@ const routes: Routes = [
   {path:'Accueil', component: AccueilComponent},
   {path: 'Details/:id', component: DetailsComponent},
   { path:'', redirectTo: '/Accueil', pathMatch: 'full' },
-  {path: 'Register', component: RegisterComponent},
+  {path: 'Register/:id', component: RegisterComponent},
+  {path: 'login/:id', component: LoginComponent},
+  {path: 'login', component: LoginComponent}
 ];
 
 @NgModule({

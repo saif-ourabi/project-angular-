@@ -18,7 +18,7 @@
             <p class="card-text">Niveau de Difficulté: {{ formation.niveau_difficulte }}</p>
             <p class="card-text">Tags: {{ formation.tags.join(', ') }}</p>
             <a href={{formation.pdf}}  class="btn btn-primary ">Download PDF</a>
-            <button class="btn btn-success" style="margin-left: 20px;" routerLink="/Register">s’inscrire</button>
+            <button class="btn btn-success" style="margin-left: 20px;" [routerLink]="['/Register',formationId]">s’inscrire</button>
         </div>
     </div>
 </body>

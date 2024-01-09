@@ -86,82 +86,85 @@
   ],
   "users": [
     {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "KxvNwyfVF6VqAUV",
-      "username": "saif ourabi",
+      "id": "e0bf",
+      "username": "saif",
+      "email": "ourabisaif48@gmail.com",
       "role": "user",
-      "id": 1
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "123564",
-      "confirmPassword": "11891891",
-      "username": "Seif",
-      "role": "user",
-      "id": 2
-    },
-    {
-      "email": "ourabisaif0.51@gmail.com",
       "password": "123456",
+      "formation": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "a9eb",
+      "username": "saif",
+      "email": "ourabisaif48@gmail.com",
+      "role": "user",
+      "password": "123456",
+      "formation": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "a950",
+      "username": "saif",
+      "email": "ourabisaif48@gmail.com",
+      "role": "user",
+      "password": "123456",
+      "formation": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "21b1",
+      "username": "saif",
+      "email": "ourabisaif48@gmail.com",
+      "role": "user",
+      "password": "123456",
+      "formation": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "email": "ourabis.aif48@gmail.com",
+      "password": "$2a$10$NflPrf70gInOB5xwq6wChOiu1WnCQcDuv54clTNu9HaFoLxXmt8ia",
       "username": "saif",
       "role": "user",
-      "id": 3
+      "formation": [
+        "1",
+        "2"
+      ],
+      "id": "NEkHY4w"
     },
     {
-      "email": "ourabisaif0.51@gmail.com",
-      "password": "123456",
+      "email": "ourabisaifal.la.h@rades.r-iset.tn",
+      "password": "$2a$10$8RUCra6fVpdjolhmJ1lW7ef6qY4BNkATpkSqQGdWmI3FtBhE1pQq2",
       "username": "saif",
       "role": "user",
-      "id": 4
+      "formation": [
+        "1"
+      ],
+      "id": "Q3xXQK7"
     },
     {
       "email": "fafoufarouk27@gmail.com",
-      "password": "123456",
-      "username": "saif",
-      "role": "user",
-      "id": 5
+      "password": "$2a$10$1xAvZHqMluYcl.nWToYtTeS.XO1RuOFOQyukjxACA943NIhONo07G",
+      "id": "ZdmUv2q"
     },
     {
-      "email": "ourabisaif0.51@gmail.com",
-      "password": "dadad15",
-      "username": "da",
+      "email": "kkk@gmail.com",
+      "password": "$2a$10$y5uTq4pEr33dhTdBKIKWueAdfOXN4WWBG8dpsuqQGjjdEoA.HHOxO",
+      "username": "saofi",
       "role": "user",
-      "id": 6
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "d484848484",
-      "username": "Seif",
-      "role": "user",
-      "id": 7
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "KxvNwyfVF6VqAUV",
-      "username": "Seif",
-      "role": "user",
-      "id": 8
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "KxvNwyfVF6VqAUV",
-      "username": "Seif",
-      "role": "user",
-      "id": 9
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "KxvNwyfVF6VqAUV",
-      "username": "Seif",
-      "role": "user",
-      "id": 10
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "KxvNwyfVF6VqAUV",
-      "username": "Seif",
-      "role": "user",
-      "id": 11
+      "formation": [
+        "1",
+        "1"
+      ],
+      "id": "UPV4HYN"
     }
   ]
 }
