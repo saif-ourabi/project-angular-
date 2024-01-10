@@ -51,6 +51,7 @@ export class RegisterComponent {
         },
         (error) => {
           console.error('Error registering user:', error);
+          alert("user aredy resitred");
         }
       );
     }

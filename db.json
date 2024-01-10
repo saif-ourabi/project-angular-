@@ -86,85 +86,14 @@
   ],
   "users": [
     {
-      "id": "e0bf",
-      "username": "saif",
       "email": "ourabisaif48@gmail.com",
-      "role": "user",
-      "password": "123456",
-      "formation": [
-        "1",
-        "2"
-      ]
-    },
-    {
-      "id": "a9eb",
-      "username": "saif",
-      "email": "ourabisaif48@gmail.com",
-      "role": "user",
-      "password": "123456",
-      "formation": [
-        "1",
-        "2"
-      ]
-    },
-    {
-      "id": "a950",
-      "username": "saif",
-      "email": "ourabisaif48@gmail.com",
-      "role": "user",
-      "password": "123456",
-      "formation": [
-        "1",
-        "2"
-      ]
-    },
-    {
-      "id": "21b1",
-      "username": "saif",
-      "email": "ourabisaif48@gmail.com",
-      "role": "user",
-      "password": "123456",
-      "formation": [
-        "1",
-        "2"
-      ]
-    },
-    {
-      "email": "ourabis.aif48@gmail.com",
-      "password": "$2a$10$NflPrf70gInOB5xwq6wChOiu1WnCQcDuv54clTNu9HaFoLxXmt8ia",
-      "username": "saif",
-      "role": "user",
-      "formation": [
-        "1",
-        "2"
-      ],
-      "id": "NEkHY4w"
-    },
-    {
-      "email": "ourabisaifal.la.h@rades.r-iset.tn",
-      "password": "$2a$10$8RUCra6fVpdjolhmJ1lW7ef6qY4BNkATpkSqQGdWmI3FtBhE1pQq2",
-      "username": "saif",
+      "password": "$2a$10$jCHYoWcDOiWn1Gx2NHvbAOT33PRdqPLeKIYO5zAvhve61s//vR2Y6",
+      "username": "sasa",
       "role": "user",
       "formation": [
         "1"
       ],
-      "id": "Q3xXQK7"
-    },
-    {
-      "email": "fafoufarouk27@gmail.com",
-      "password": "$2a$10$1xAvZHqMluYcl.nWToYtTeS.XO1RuOFOQyukjxACA943NIhONo07G",
-      "id": "ZdmUv2q"
-    },
-    {
-      "email": "kkk@gmail.com",
-      "password": "$2a$10$y5uTq4pEr33dhTdBKIKWueAdfOXN4WWBG8dpsuqQGjjdEoA.HHOxO",
-      "username": "saofi",
-      "role": "user",
-      "formation": [
-        "1",
-        "1"
-      ],
-      "id": "UPV4HYN"
+      "id": 2
     }
   ]
 }

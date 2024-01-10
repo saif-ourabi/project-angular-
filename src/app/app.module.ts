@@ -10,6 +10,7 @@ import { DetailsComponent } from './formation/Details/details/details.component'
 import { RegisterComponent } from './user/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './user/login/login.component';
+import { CandidatComponent } from './user/candidat/candidat.component';
 
 
 
@@ -23,7 +24,8 @@ import { LoginComponent } from './user/login/login.component';
     FormationListComponent,
     DetailsComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    CandidatComponent
   ],
   imports: [
     BrowserModule,

@@ -40,8 +40,10 @@ export class LoginComponent {
 
       this.loginService.login(email, password).subscribe(
         (response) => {
-          console.log('Login successful:', response);
-          // Optionally, you can redirect or perform other actions upon successful login
+          console.log(response);
+          if(response.user.role=='user'){
+            this.router.navigate(['/Candidat',response.user.id])
+          }
         },
         (error) => {
           console.error('Error during login:', error);

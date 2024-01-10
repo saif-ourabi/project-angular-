@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class LoginService {
-  private apiUrl = 'http://localhost:3000/users/login';
+  private apiUrl = 'http://localhost:3000/login';
   private options = { headers: new HttpHeaders({ 'content-type': 'application/json' }) };
 
   constructor(private http: HttpClient, private router: Router) {}
@@ -25,4 +25,10 @@ export class LoginService {
       })
     );
   }
+  getuserbyid(id: string): Observable<any> {
+    const url = `http://localhost:3000/users/${id}`;
+    return this.http.get(url);
+  }
+  
+  
 }
